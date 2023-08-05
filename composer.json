@@ -1,0 +1,26 @@
+{
+    "name": "alexx/slim",
+    "autoload": {
+        "psr-4": {
+            "Alexx\\Slim\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alexx",
+            "email": "alexx13412@yandex.ru"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.12",
+        "slim/http": "^0.4.0",
+        "slim/psr7": "^1.6",
+        "httpsoft/http-message": "^1.1",
+        "httpsoft/http-server-request": "^1.1",
+        "nyholm/psr7": "^1.8",
+        "nyholm/psr7-server": "^1.0",
+        "guzzlehttp/psr7": "^2.6",
+        "laminas/laminas-diactoros": "^3.1",
+        "slim/php-view": "^3.2"
+    }
+}
